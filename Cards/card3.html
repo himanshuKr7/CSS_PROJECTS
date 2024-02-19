@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Card3</title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+			}
+			.container {
+				width: 100vw;
+				height: 100vh;
+				background-color: #8bc6ec;
+				background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			.card {
+				width: 60%;
+				height: 60%;
+				background-color: white;
+				display: flex;
+			}
+			.leftbox {
+				width: 50%;
+				height: 100%;
+				display: flex;
+				flex-direction: column;
+				gap: 55px;
+				background-color: rgb(66, 7, 56);
+				color: white;
+                padding: 35px 30px;
+			}
+			.rightbox {
+				width: 50%;
+				height: 100%;
+				background-image: url(photo.avif);
+				background-size: cover;
+				background-position: top;
+			}
+            .stats{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            h2{
+                font-size: 2rem;
+            }
+            p{
+                font-size: 0.9em;
+            }
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="card">
+				<div class="leftbox">
+					<div class="heading">
+						<h2>Get insights that help your business grow</h2>
+					</div>
+					<div class="txt">
+						<p>
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
+							numquam necessitatibus totam iste ratione! Eius qui aliquid totam
+							eligendi natus?
+						</p>
+					</div>
+					<div class="stats">
+						<div id="subscriber">
+							<h2>40K+</h2>
+							<p>Subscribers</p>
+						</div>
+						<div id="Users">
+							<h2>214</h2>
+							<p>Paid Users</p>
+						</div>
+						<div id="views">
+							<h2>12M+</h2>
+							<p>Views</p>
+						</div>
+					</div>
+				</div>
+				<div class="rightbox"></div>
+			</div>
+		</div>
+	</body>
+</html>
