@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+       html,body{
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        place-items: center;
+        background-color: black;
+       }
+       h1{
+        color: white;
+        position: relative;
+       }
+       h1::before{
+        content: "HIMANSHU_KUMAR...";
+        position: absolute;
+        color: yellow;
+        border-right:2px solid yellow;
+        width:0;
+        overflow: hidden;
+        animation: magic linear 1s  infinite .5s alternate none ;
+       }
+       @keyframes magic
+       {
+        0%{
+            width: 0%;
+        }
+        50%
+        {
+            width: 100%;
+        }
+        100%
+        {
+            width: 0%;
+        }
+       }
+    </style>
+</head>
+<body>
+    <h1>HIMANSHU_KUMAR...</h1>
+</body>
+</html>

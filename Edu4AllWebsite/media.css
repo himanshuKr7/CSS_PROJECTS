@@ -1,0 +1,108 @@
+@media (max-width:1110px) {
+    #about{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    #gallery
+    {
+        display: none;
+    }
+}
+@media (max-width:925px) {
+    #intro{
+        flex-direction: column;
+    }
+    #intro-txt
+    {
+        width: 100%;
+        text-align: center;
+    }
+    #intro-img{
+        width: 100%;
+    }
+    #icons
+    {
+        flex-direction: column;
+        gap: 35px;
+    }
+    .icon1 i{
+        font-size: 30px;
+    }
+    .icon1>h4{
+        margin-top: 20px;
+    }
+    #teamimg{
+        flex-direction: column;
+    }
+    #query-img
+    {
+        display: none;
+    }
+    #query-form
+    {
+        width: 100%;
+    }
+     #Contact
+     {
+        flex-direction: column;
+        align-items: center;
+     }
+    .contact1
+    {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .box{
+        width: 40%;
+    }
+    #about-img {
+     margin: auto;
+    }
+
+    #about-txt {
+     padding: 20px 20px;
+     text-align: center;
+    }
+}
+@media (max-width:700px)
+{
+    body{
+        overflow: none;
+    }
+    #nav-part2{
+        display: none;
+    }
+    .nav-toggle{
+        display: block;
+        font-size: 1.5em;
+        font-weight: 700;
+    }
+    .container {
+             margin-left: 20px;
+             margin-right: 20px;
+         }
+    .box {
+            width: 100%;
+        }
+    .Programs
+    {
+        margin: 20px 20px;
+    }
+}
+@media (max-width:500px) {
+    html,body{
+        overflow:none;
+    }
+    .contact2
+    {
+        width: 100%;
+    }
+    #faith>h2
+    {
+        border-bottom: none;
+    }
+   
+}
